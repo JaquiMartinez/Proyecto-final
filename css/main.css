@@ -60,6 +60,10 @@ footer {
         .header .header__navbar .header__logo {
           width: 80px;
           height: auto; } }
+      @media screen and (min-width: 578px) and (max-width: 991px) {
+        .header .header__navbar .header__logo {
+          width: 100px;
+          height: auto; } }
     .header .header__navbar .navbar__list {
       display: flex;
       flex-direction: row;
@@ -281,6 +285,9 @@ footer {
       display: flex;
       justify-content: center;
       width: 100%; }
+      @media screen and (min-width: 578px) and (max-width: 991px) {
+        .galery .container-galery .hands .hands__container {
+          width: 83%; } }
       @media screen and (max-width: 576px) {
         .galery .container-galery .hands .hands__container .row__div {
           display: flex;
@@ -299,6 +306,11 @@ footer {
             margin: 10px; }
             .galery .container-galery .hands .hands__container .row__div .row__hands:hover {
               transform: none; } }
+        @media screen and (min-width: 578px) and (max-width: 991px) {
+          .galery .container-galery .hands .hands__container .row__div .row__hands {
+            border-radius: 20px;
+            box-shadow: 3px 3px 10px;
+            margin: 10px; } }
     .galery .container-galery .face {
       margin-top: 40px; }
       .galery .container-galery .face .face__facial {
@@ -315,6 +327,9 @@ footer {
       .galery .container-galery .face .face__container {
         display: flex;
         justify-content: center; }
+        @media screen and (min-width: 578px) and (max-width: 991px) {
+          .galery .container-galery .face .face__container {
+            width: 88%; } }
         @media screen and (max-width: 576px) {
           .galery .container-galery .face .face__container .row__div {
             display: flex;
@@ -333,6 +348,40 @@ footer {
               margin: 10px; }
               .galery .container-galery .face .face__container .row__div .row__face:hover {
                 transform: none; } }
+          @media screen and (min-width: 578px) and (max-width: 991px) {
+            .galery .container-galery .face .face__container .row__div .row__face {
+              border-radius: 20px;
+              box-shadow: 3px 3px 10px;
+              margin: 10px; } }
+      .galery .container-galery .face .masage__container {
+        display: flex;
+        justify-content: center; }
+        @media screen and (min-width: 578px) and (max-width: 991px) {
+          .galery .container-galery .face .masage__container {
+            width: 75%; } }
+        @media screen and (max-width: 576px) {
+          .galery .container-galery .face .masage__container .row__div {
+            display: flex;
+            justify-content: center; } }
+        .galery .container-galery .face .masage__container .row__div .row__face {
+          margin: 5px 50px;
+          border-radius: 20px;
+          box-shadow: 3px 3px 10px; }
+          .galery .container-galery .face .masage__container .row__div .row__face:hover {
+            transform: scale(1.5);
+            transition: all 1s ease; }
+          @media screen and (max-width: 576px) {
+            .galery .container-galery .face .masage__container .row__div .row__face {
+              border-radius: 20px;
+              box-shadow: 3px 3px 10px;
+              margin: 10px; }
+              .galery .container-galery .face .masage__container .row__div .row__face:hover {
+                transform: none; } }
+          @media screen and (min-width: 578px) and (max-width: 991px) {
+            .galery .container-galery .face .masage__container .row__div .row__face {
+              border-radius: 20px;
+              box-shadow: 3px 3px 10px;
+              margin: 10px; } }
 
 .services {
   background-image: url(../img/fondoservicio.jpg);

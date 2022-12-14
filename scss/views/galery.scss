@@ -17,7 +17,6 @@
             @include mobile {
                 font-size: 30px;
                 margin-top: 10px;
-
             }
         }
         .hands {
@@ -37,12 +36,14 @@
                 display: flex;
                 justify-content: center;
                 width: 100%;
+                @include tablet {
+                    width: 83%;
+                }
                 .row__div {
                     @include mobile {
                         display: flex;
                         justify-content: center;
                     }
-                    
                     .row__hands {
                         margin: 5px 40px;
                         border-radius: 20px;
@@ -59,10 +60,13 @@
                                 transform: none;
                             }
                         }
+                        @include tablet {
+                            border-radius: 20px;
+                            box-shadow: 3px 3px 10px;
+                            margin: 10px;
+                        }
                     }
                 }
-                
-
             }
         }
         .face {
@@ -77,12 +81,14 @@
                 @include mobile {
                     font-size: 23px;
                     margin-top: 10px;
-
                 }
             }
             .face__container {
                 display: flex;
                 justify-content: center;
+                @include tablet {
+                    width: 88%;
+                }
                 .row__div {
                     @include mobile {
                         display: flex;
@@ -105,14 +111,51 @@
                                 
                             }
                         }
+                        @include tablet {
+                            border-radius: 20px;
+                            box-shadow: 3px 3px 10px;
+                            margin: 10px;
+                        }
                     }
                 }
-                
+            }
+            .masage__container {
+                display: flex;
+                justify-content: center;
+                @include tablet {
+                    width: 75%;
+                }
+                .row__div {
+                    @include mobile {
+                        display: flex;
+                        justify-content: center;
+                    }
+                    .row__face {
+                        margin: 5px 50px;
+                        border-radius: 20px;
+                        box-shadow: 3px 3px 10px;
+                        &:hover{
+                            transform: scale(1.5);
+                            transition: all 1s ease;
+                        }
+                        @include mobile {
+                            border-radius: 20px;
+                            box-shadow: 3px 3px 10px;
+                            margin: 10px;
+                            &:hover{
+                                transform: none;
+                                
+                            }
+                        }
+                        @include tablet {
+                            border-radius: 20px;
+                            box-shadow: 3px 3px 10px;
+                            margin: 10px;
+                        }
+                    }
+                }
             }    
-                
-            
         }
-    
     }
 }
 
